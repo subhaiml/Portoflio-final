@@ -26,14 +26,14 @@ const About = () => {
                   to deliver impactful applications that solve real-world problems.
                 </p>
 
-                {/* Resume Button */}
+                {/* View Resume Button */}
                 <a
-                  href="https://drive.google.com/file/d/1WEm5lSBhrHcgYAdQM2Ad9kKYgBysubVD/view?usp=sharing"
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
                 >
-                  Download Resume
+                  View Resume
                 </a>
               </div>
             </div>
@@ -72,4 +72,3 @@ const About = () => {
 };
 
 export default About;
-
