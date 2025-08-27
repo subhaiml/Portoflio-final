@@ -157,10 +157,10 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Resume Download */}
+            {/* Resume View */}
             <div className="portfolio-card p-8 rounded-xl text-center">
               <h3 className="text-xl font-semibold mb-4 gradient-text-accent">
-                Download Resume
+                View Resume
               </h3>
               <p className="text-muted-foreground mb-6">
                 Get a detailed overview of my experience, education, and skills.
@@ -171,12 +171,12 @@ const Contact = () => {
                 asChild
               >
                 <a 
-                  href="https://drive.google.com/file/d/1q8C8AqnPqgN3aEa_h4E5m2LE1fQC5bUd/view?usp=sharing"
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Download className="w-4 h-4 mr-2" />
-                  Download CV
+                  View Resume
                 </a>
               </Button>
             </div>
