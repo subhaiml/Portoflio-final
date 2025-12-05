@@ -4,6 +4,13 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "NutriTrack AI",
+      description: "AI-powered nutrition tracker using Google Gemini 2.5 Flash. Features real-time food recognition (80% accuracy), dual-input via Web/Raspberry Pi, and detailed calorie analytics with Supabase backend.",
+      tech: ["React", "TypeScript", "Supabase", "Gemini AI", "IoT"],
+      liveUrl: "https://nutri-pro-v2.vercel.app/",
+      icon: "🥗"
+    },
+    {
       title: 'Concert Ticket Generator',
       description: 'A dynamic web application for generating custom concert tickets with interactive design and real-time preview.',
       tech: ['React', 'CSS', 'JavaScript'],
