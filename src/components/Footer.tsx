@@ -46,7 +46,7 @@ const Footer = () => {
 
           <div className="text-muted-foreground text-sm text-center md:text-right">
             <p className="flex items-center justify-center md:justify-end">
-              Made with <Heart className="w-4 h-4 mx-1 text-red-400" fill="currentColor" /> by Subharthi Dutta
+              Made by Subharthi Dutta
             </p>
             <p className="mt-1">
               © {currentYear} All rights reserved.
